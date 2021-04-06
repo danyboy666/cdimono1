@@ -1,8 +1,9 @@
 ## cdimono1
 
 #emulationstation script for the CDI-mono system.
+```
+es_systems.cfg (linux)
 
-#es_systems.cfg (linux)
 
 <system>
     <name>cdimono1</name>
@@ -30,6 +31,6 @@
     <theme>cdimono1</theme>
 </system>
 
-
+```
 Use this config file https://github.com/danyboy666/es_systems/blob/master/opt/retropie/configs/cdimono1/emulators.cfg
 
