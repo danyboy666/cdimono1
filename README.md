@@ -2,7 +2,7 @@
 
 emulationstation script for the CDI-mono system.
 
-es_systems.cfg
+es_systems.cfg (linux)
 
 ```<system>
     <name>cdimono1</name>
@@ -15,6 +15,22 @@ es_systems.cfg
     <theme>cdimono1</theme>
   </system>```
   
+
+es_systems.cfg (windows)
+
+
+```<system>
+    <name>cdimono1</name>
+    <fullname>Philips CD-I</fullname>
+    <path>~.emulationstation\roms\cdimono1</path>
+	<extension>.txt</extension>
+	<command>%HOME%\.emulationstation\systems\retroarch\retroarch.exe -L %HOME%\.emulationstation\systems\retroarch\cores\mame_libretro.dll %HOME%\.emulationstation\roms\cdimono1\%BASENAME%.txt</command>
+<!--	<command>%HOME%\.emulationstation\systems\retroarch\scripts\cdimono1.bat %BASENAME%</command> -->
+    <platform>cdimono1</platform>
+    <theme>cdimono1</theme>
+</system>
+```
+
 Use this config file https://github.com/danyboy666/es_systems/blob/master/opt/retropie/configs/cdimono1/emulators.cfg
 
-(windows version)
+windows version
